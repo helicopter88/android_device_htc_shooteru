@@ -18,4 +18,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device.mk
+    device/htc/shooteru/full_shooteru.mk \
+    device/htc/shooteru/device.mk 
