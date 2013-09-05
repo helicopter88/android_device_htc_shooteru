@@ -103,6 +103,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     gps.shooteru
 
+# Dmesg dumper
+PRODUCT_PACKAGES += \
+   dmesgdump
+
 # Inherit makefiles
 $(call inherit-product-if-exists, vendor/htc/shooteru/shooteru-vendor-blobs.mk)
 
