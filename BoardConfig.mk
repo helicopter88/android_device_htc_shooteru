@@ -30,7 +30,7 @@
 TARGET_BOOTLOADER_BOARD_NAME := shooteru
 
 # Kernel
-BOARD_KERNEL_CMDLINE := console=ttyHSL0 androidboot.hardware=shooteru no_console_suspend=1
+BOARD_KERNEL_CMDLINE := console=ttyHSL0 androidboot.hardware=shooteru no_console_suspend=1 maxkhz=1512000
 TARGET_KERNEL_CONFIG := shooter_u_defconfig
 
 # Partitions
@@ -56,9 +56,11 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 1252770816
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
 
 TARGET_RECOVERY_FSTAB := device/htc/shooteru/prebuilt/root/fstab.shooteru
+RECOVERY_FSTAB_VERSION := 2
 
 # GPS
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := shooteru
+BOARD_QCOM_TUNNEL_LPA_ENABLED := false
 
 # RIL
 BOARD_USE_NEW_LIBRIL_HTC := true
