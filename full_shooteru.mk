@@ -34,7 +34,7 @@ $(call inherit-product, vendor/cfx/config/gsm.mk)
 
 # Boot animation
 PRODUCT_COPY_FILES += \
-    vendor/cfx/prebuilt/common/bootanimation/720.zip:system/media/bootanimation.zip
+    vendor/cfx/prebuilt/common/bootanimation/480.zip:system/media/bootanimation.zip
 
 # Inherit some common CFX stuff.
 $(call inherit-product, vendor/cfx/config/common_full_phone.mk)
