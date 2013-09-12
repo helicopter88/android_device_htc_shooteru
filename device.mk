@@ -105,7 +105,7 @@ PRODUCT_PACKAGES += \
 
 # Dmesg dumper
 PRODUCT_PACKAGES += \
-   dmesgdump
+    dmesgdump
 
 # Inherit makefiles
 $(call inherit-product-if-exists, vendor/htc/shooteru/shooteru-vendor-blobs.mk)
